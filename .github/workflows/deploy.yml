@@ -63,7 +63,7 @@ jobs:
       - name: Build
         env:
           NODE_ENV: production
-        run: npm build
+        run: npm run build
 
       - name: Deploy admin to S3
         run: |
